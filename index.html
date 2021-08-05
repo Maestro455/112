@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+	 <head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+	<div class="header__container">
+		<div class="header__burger-menu">
+			<div class="menu-icon icon-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>	
+		</div>
+		<div class="flex-adv-make__container">
+			<a href="#make-block" class="header__adv-make _popup-link">
+				Создать объявление
+				<div class="icon-add">
+					<span></span>
+					<span></span>
+				</div>
+			</a>	
+		</div>
+		<div class="header__adv-search">
+			<p>Войти</p>
+			<a href="#">
+				<img src="/img/icons/sign-in.png" alt="">
+			</a>
+		</div>
+	</div>
+</header>
+			<main class="page">
+				<div class="main_container">
+    <div class="check-filters">
+        <p>Сортировать</p> 
+        <div class="add-arrow-filters">
+            <span></span>
+            <span></span>
+        </div>
+    </div>  
+    <div class="search-adv">
+        <input type="text" placeholder="Поиск объявлений">
+        <img src="img/icons/search-фвм.png" alt="">
+    </div>
+</div>
+<div class="adv-block__container">
+    <div class="adv-item item-1">
+        <div class="adv-picture-block">
+            <img src="/img/icons/adv-item-1.jpg" alt="">
+        </div>
+        <div class="text-adv-container">
+            <div class="adv-title-block">
+                <p>Купи 200 тонн кирпича а</p>
+            </div>
+            <div class="adv-text-block">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, cupiditate.</p>
+            </div>
+        </div>
+        <div class="adv-price-tag">
+            <div class="adv-price">
+                <p>
+                    10 000 ₽
+                </p>
+            </div>
+            <div class="adv-buy-container">
+                <div class="adv-buy">
+                        <p>Купить</p>
+                </div>
+                <div class="adv-favourites"></div>       
+            </div>  
+        </div>
+    </div>
+    <div class="adv-item item-1">
+        <div class="adv-picture-block">
+            <img src="/img/icons/adv-item-1.jpg" alt="">
+        </div>
+        <div class="text-adv-container">
+            <div class="adv-title-block">
+                <p>Купи 200 тонн кирпича а</p>
+            </div>
+            <div class="adv-text-block">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, cupiditate.</p>
+            </div>
+        </div>
+        <div class="adv-price-tag">
+            <div class="adv-price">
+                <p>
+                    10 000 ₽
+                </p>
+            </div>
+            <div class="adv-buy-container">
+                <div class="adv-buy">
+                        <p>Купить</p>
+                </div>
+                <div class="adv-favourites"></div>       
+            </div> 
+        </div>
+    </div>
+    <div class="adv-item item-1">
+        <div class="adv-picture-block">
+            <img src="/img/icons/adv-item-1.jpg" alt="">
+        </div>
+        <div class="text-adv-container">
+            <div class="adv-title-block">
+                <p>Купи 200 тонн кирпича а</p>
+            </div>
+            <div class="adv-text-block">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, cupiditate.</p>
+            </div>
+        </div>
+        <div class="adv-price-tag-container">
+            <div class="adv-price">
+                <p>
+                    10 000 ₽
+                </p>
+            </div>
+            <div class="adv-buy-container">
+                <div class="adv-buy">
+                        <p>Купить</p>
+                </div>
+                <div class="adv-favourites"></div>       
+            </div> 
+        </div>
+    </div>
+
+</div>
+
+
+			</main>
+			<footer class="footer">
+	<div class="footer__container _container">
+
+	</div>
+</footer>
+		</div>
+		<div class="popup popup_make-block">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__closed popup__close">
+				<span></span>
+				<span></span>
+			</div>
+			<div class="popup-info">
+				<p>
+					Создайте свое объявление 
+				</p>
+			</div>
+			<form action="#">
+				<div class="form-flex-container">
+					<div class="form-container">	
+						<div class="title-popup _style-input">
+							<input id="input-title" type="text" placeholder="Введите название предлагаемой услуги/продукта">
+						</div>
+						<div class="text-popup _style-input">
+							<textarea id="input-text" class="input-text" name="announce-text" id="#announce-text" maxlength="150" 
+							placeholder="Расскажите более подробно о вашем предложении"
+							></textarea>
+						</div>
+						<div class="price-type-container">
+							<div class="price-popup _style-input">
+								<input id="input-price" type="number" placeholder="Введите цену ₽">
+							</div>
+							<form action="#" method="#">
+								<select class="select" name="language">
+									<option disabled>Выберите категорию</option>
+									<option value="HTML">Категория 1</option>
+									<option value="JavaScript">Категория 2</option>
+									<option value="PHP">Категория 3</option>
+								</select>
+							</form>
+						</div>
+						<div class="confirm-create _popup-close">
+							<p>Опубликовать</p>
+						</div>
+					</div>		
+					<div class="download-picture">
+						<div class="input__wrapper">
+							<input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+							<label for="input__file" class="input__file-button">
+						  	 	<span class="input__file-icon-wrapper"><img class="input__file-icon" src="./img/icons/upload.png" alt="Выбрать файл" width="25"></span>
+						  	 	<span class="input__file-button-text">Выберите файл</span>
+							</label>
+						 </div>
+					</div>
+				</div>
+			</form>	
+		</div>
+	</div>
+</div>
+<div class="popup popup_massagename-message">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+
+		<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
